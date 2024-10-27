@@ -1,4 +1,4 @@
-// Load existing messages from localStorage
+// Load existing messages from localStorage when the page loads
 document.addEventListener('DOMContentLoaded', loadMessages);
 
 document.getElementById('submitBtn').addEventListener('click', function() {
